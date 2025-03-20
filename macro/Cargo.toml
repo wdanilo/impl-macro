@@ -1,0 +1,21 @@
+[package]
+name = "impl-macro-internal"
+version = "0.1.0"
+authors = ["Wojciech Danilo <wojciech.danilo@gmail.com>"]
+description = "Helper for the impl-macro crate."
+edition = "2024"
+keywords = ["macros"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/wdanilo/borrow"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "2" }
+quote = { version = "1" }
+proc-macro2 = { version = "1", features = ["span-locations"] }
+itertools = { version = "0.13" }
+
+[lints]
+workspace = true

@@ -1,0 +1,17 @@
+[package]
+name = "impl-macro"
+version = "0.1.0"
+authors = ["Wojciech Danilo <wojciech.danilo@gmail.com>"]
+description = "Macro reducing boilerplate of similar impl declarations."
+edition = "2024"
+keywords = ["impl", "macro", "boilerplate"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/wdanilo/borrow"
+
+[lib]
+
+[dependencies]
+impl-macro-internal = { version = "0.1.0", path = "../macro" }
+
+[lints]
+workspace = true
