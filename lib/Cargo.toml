@@ -6,7 +6,7 @@ description = "Macro reducing boilerplate of similar impl declarations."
 edition = "2024"
 keywords = ["impl", "macro", "boilerplate"]
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/wdanilo/borrow"
+repository = "https://github.com/wdanilo/impl-macro"
 
 [lib]
 

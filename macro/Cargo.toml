@@ -6,7 +6,7 @@ description = "Helper for the impl-macro crate."
 edition = "2024"
 keywords = ["macros"]
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/wdanilo/borrow"
+repository = "https://github.com/wdanilo/impl-macro"
 
 [lib]
 proc-macro = true
