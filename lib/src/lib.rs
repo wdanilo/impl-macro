@@ -5,14 +5,14 @@ pub trait Abs {
 }
 
 imp! { Abs
-    for bool where bool: std::fmt::Display, usize: std::fmt::Display,
+    for bool,
     for char,
     for u8,
     for u16,
     for u32,
     for u64,
     for u128,
-    for usize {
+    for usize where bool: std::fmt::Display, usize: std::fmt::Display, {
         fn abs(self) -> Self {
             self
         }
